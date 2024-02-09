@@ -1,0 +1,958 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.zgva{
+width: 1440px;
+height: 700px;
+position: absolute;
+top:0;
+left:0;
+z-index: -1;
+
+
+}
+
+.logo{
+width: 98.48px;
+height: 153px;
+
+}
+.burger{
+    visibility: hidden;
+}
+
+.navigacia{
+    padding-left: 80px;
+    padding-top: 30px;
+    width: 1280px;
+    height: 153px;
+    top: 32px;
+    left: 80px;
+    display: flex;
+    align-content: center;
+    justify-content:space-between;
+
+
+}
+
+.nav-link{
+font-family: Gentium Book Basic;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+align-self: center;
+
+
+
+
+
+}
+.nav-link a{
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 101px;
+    height: 40px;
+    padding-right: 20px;
+
+
+
+}
+header p{
+font-family: Gentium Book Basic;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+color: #C0B4B4;
+position: absolute;
+width: 1280px;
+height: 96px;
+top: 508px;
+left: 80px;
+
+
+
+}
+main{
+ background: #2A2626;
+ position: absolute;
+ width: 1440px;
+ height: 610px;
+ top: 700px;
+
+
+}
+main span{
+    font-family: Gentium Book Basic;
+font-size: 48px;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+width: 283px;
+height: 56px;
+top: 96px;
+left: 578px;
+color: #FFFFFF;
+
+
+}
+.pictures img{
+    /* position: absolute; */
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+
+
+
+
+}
+.pictures{
+    position: absolute;
+    /* width: 400px; */
+    height: 320px;
+    top: 194px;
+    left: 80px;
+    display: flex;
+
+ 
+}
+
+section{
+    position: absolute;
+    width: 1440px;
+height: 512px;
+top: 1310px;
+padding: 96px, 190px, 96px, 190px;
+background: #0B0A0A;
+
+
+}
+section span{
+    font-family: Gentium Book Basic;
+font-size: 48px;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+width: 145px;
+height: 56px;
+
+}
+
+section p{
+    position: absolute;
+    width: 510px;
+height: 182px;
+top: 98px;
+font-family: Gentium Book Basic;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: justified;
+color: #FFFFFF;
+}
+
+section img{
+    position: absolute;
+    width: 510px;
+height: 320px;
+top: 96px;
+left: 190px;
+
+}
+.about{
+    position: absolute;
+    width: 510px;
+height: 320px;
+top: 96px;
+left: 740px;
+padding: 0px, 0px, 40px, 0px;
+
+}
+
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 217px;
+    top: 1822px;
+    padding: 32px, 80px, 32px, 80px;
+    background: #2A2626;
+  
+    
+    
+  
+
+
+}
+
+.footer{
+    display: flex;
+    align-content: center;
+    justify-content:space-between;
+    padding-left: 80px;
+    padding-top: 30px;
+    width: 1280px;
+    height: 153px;
+
+}
+
+.icones{
+    position: absolute;
+    width: 278px;
+height: 60px;
+top: 79px;
+left: 1082px;
+
+}
+
+.footer-logo{
+    position: absolute;
+    width: 97px;
+height: 153px;
+top: 32px;
+left: 80px;
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    
+    .zgva{
+    width: 1440px;
+    height: 700px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    
+    
+    }
+    
+    .logo{
+    width: 98px;
+    height: 127px;
+    
+    }
+    .burger{
+        visibility: hidden;
+    }
+    
+    .navigacia{
+        padding-left: 80px;
+        padding-top: 30px;
+        width: 944px;
+        height: 127px;
+        top: 32px;
+        left: 40px;
+        display: flex;
+        align-content: center;
+        justify-content:space-between;
+    
+    
+    }
+    
+    .nav-link{
+    font-family: Gentium Book Basic;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    align-self: center;
+    
+    
+    
+    
+    
+    }
+    .nav-link a{
+        text-decoration: none;
+        color: #FFFFFF;
+        width: 101px;
+        height: 40px;
+        padding-right: 20px;
+    
+    
+    
+    }
+    header p{
+    font-family: Gentium Book Basic;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #C0B4B4;
+    position: absolute;
+    width: 944px;
+    height: 144px;
+    top: 496px;
+    left: 40px;
+
+    
+    
+    
+    }
+    main{
+     background: #2A2626;
+     position: absolute;
+     width: 1024px;
+     height: 610px;
+     top: 700px;
+     
+    
+    
+    }
+    main span{
+        font-family: Gentium Book Basic;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    width: 283px;
+    height: 56px;
+    top: 96px;
+    left: 371px;
+    color: #FFFFFF;
+    
+    
+    }
+    .pictures img{
+        /* position: absolute; */
+      display: flex;
+      flex-direction: row;
+      padding-right: 40px;
+      width: 288px;
+        height: 320px;
+        top: 194px;
+        left: 40px;
+    
+    
+    
+    
+    }
+    .pictures{
+        position: absolute;
+        display: flex;
+        justify-content: space-evenly;
+    
+     
+    }
+    
+    section{
+        position: absolute;
+        width: 1024px;
+height: 512px;
+top: 1310px;
+padding: 96px, 40px, 96px, 40px;
+    background: #0B0A0A;
+    
+    
+    }
+    section span{
+        font-family: Gentium Book Basic;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 145px;
+    height: 56px;
+    
+    }
+    
+    section p{
+        position: absolute;
+        width: 452px;
+        height: 182px;
+        top: 98px;
+
+    font-family: Gentium Book Basic;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #FFFFFF;
+    }
+    
+    section img{
+        position: absolute;
+        width: 452px;
+        height: 320px;
+        top: 96px;
+        left: 40px;
+
+    
+    }
+    .about{
+        position: absolute;
+        width: 510px;
+        width: 452px;
+        height: 320px;
+        top: 96px;
+        left: 532px;
+        padding: 0px, 0px, 40px, 0px;
+        
+    }
+    
+    footer{
+        position: absolute;
+        width: 1024px;
+        height: 217px;
+        top: 1822px;
+        padding: 32px, 80px, 32px, 80px;
+        background: #2A2626;
+      
+        
+        
+      
+    
+    
+    }
+    
+    .footer{
+        display: flex;
+        align-content: center;
+        justify-content:space-between;
+        padding-left: 80px;
+        padding-top: 30px;
+        width: 1280px;
+        height: 153px;
+    
+    }
+    
+    .icones{
+        position: absolute;
+        width: 278px;
+        height: 60px;
+        top: 79px;
+        left: 706px;
+
+    }
+    
+    .footer-logo{
+        position: absolute;
+        width: 97px;
+        height: 153px;
+        top: 32px;
+        left: 40px;
+
+    
+    }
+  }
+
+  @media only screen and (max-width: 834px) {
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    
+    .zgva{
+    width: 834px;
+    height: 700px;  
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    
+    
+    }
+    
+    .logo{
+        width: 49px;
+        height: 76px;
+      
+        
+    
+    }
+    
+    .navigacia{
+        padding-left: 80px;
+        padding-top: 30px;
+        width: 776px;
+        height: 76px;
+        top: 32px;
+        left: 29px;
+        display: flex;
+        align-content: center;
+        justify-content:space-between;
+    
+    
+    }
+    .nav-link{
+        display:none;
+    }
+    
+    .nav-link {
+    font-family: Gentium Book Basic;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    align-self: center;
+    
+    }
+   
+    header p{
+    font-family: Gentium Book Basic;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #C0B4B4;
+    position: absolute;
+    width: 776px;
+    height: 144px;
+    top: 492px;
+    left: 29px;
+
+    
+    
+    
+    }
+    main{
+     background: #2A2626;
+     position: absolute;
+     width: 834px;
+     height: 610px;
+     top: 700px;
+     
+     
+    
+    
+    }
+    main span{
+        font-family: Gentium Book Basic;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    width: 283px;
+    height: 56px;
+    top: 96px;
+    left: 276px;
+    color: #FFFFFF;
+    
+    
+    }
+    .pictures img{
+        /* position: absolute; */
+      display: flex;
+      flex-direction: row;
+      padding-right: 40px;
+      width: 368px;
+    height: 320px;
+    top: 194px;
+    left: 29px;
+
+    
+    
+    
+    
+    }
+    .pictures{
+        position: absolute;
+        display: flex;
+        justify-content: space-evenly;
+    
+     
+    }
+    
+    section{
+        position: absolute;
+        width: 834px;
+    height: 754px;
+    top: 1310px;
+    padding: 96px, 29px, 96px, 29px;
+    background: #0B0A0A;
+    
+    
+    }
+    section span{
+        font-family: Gentium Book Basic;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 145px;
+    height: 56px;
+
+    }
+    
+    section p{
+        position: absolute;
+        width: 776px;
+        height: 104px;
+        top: 98px;
+    font-family: Gentium Book Basic;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #FFFFFF;
+    }
+    
+    section img{
+        position: absolute;
+        width: 776px;
+        height: 320px;
+        top: 96px;
+        left: 29px;
+
+
+    
+    }
+    .about{
+        position: absolute;
+        width: 776px;
+        height: 202px;
+        top: 456px;
+        left: 29px;
+
+
+        
+    }
+    
+    footer{
+        position: absolute;
+        width: 834px;
+        height: 217px;
+        top: 2064px;
+        
+        background: #2A2626;
+      
+        
+        
+      
+    
+    
+    }
+    
+    .footer{
+        display: flex;
+        align-content: center;
+        justify-content:space-between;
+        padding-left: 80px;
+        padding-top: 30px;
+        width: 1280px;
+        height: 153px;
+    
+    }
+    
+    .icones{
+        position: absolute;
+        width: 278px;
+        height: 60px;
+        top: 79px;
+        left: 278px;
+
+
+    }
+    
+    .footer-logo{
+        position: absolute;
+        display:none;
+
+    
+    }
+
+
+    .burger{
+        position: absolute;
+    padding: 10px, 5px, 10px, 5px;
+    border-radius: 50px;
+    width: 52px;
+height: 52px;
+top: 38px;
+left: 724px;
+padding: 6px;
+border-radius: 50px;
+background: #FFFFFF;
+visibility: visible;
+
+    }
+  }
+
+
+  @media only screen and (max-width: 480px) {
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    
+    .zgva{
+        width: 480px;
+        height: 696px;
+        position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    
+    
+    }
+    
+    .logo{
+        width: 49px;
+        height: 76px;
+  
+    }
+    
+    .navigacia{
+        padding-left: 25px;
+        padding-top: 30px;
+        width: 448px;
+        height: 76px;
+        top: 32px;
+        left: 16px;
+        display: flex;
+        align-content: center;
+        justify-content:space-between;
+    
+    
+    }
+    .nav-link{
+        visibility: hidden;
+    }
+    
+   
+   
+    header p{
+        font-family: Gentium Book Basic;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;    
+    color: #C0B4B4;
+    position: absolute;
+    width: 448px;
+    height: 96px;
+    top: 517px;
+    left: 7px;
+
+
+    
+    
+    
+    }
+    main{
+     background: #2A2626;
+     position: absolute;
+     width: 480px;
+    height: 994px;
+    top: 696px;
+
+     
+     
+    
+    
+    }
+    main span{
+        font-family: Gentium Book Basic;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+letter-spacing: 0em;    
+    position: absolute;
+    width: 212px;
+    height: 42px;
+    top: 48px;
+    left: 134px;
+
+    color: #FFFFFF;
+    
+    
+    }
+
+
+
+    .pictures{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+position: absolute;
+top:122px;
+left:59px;
+
+    }
+
+    .pic2{
+        padding-bottom: 16px;
+        height:400px;
+        width:448px;
+        padding-bottom: 24px;
+    }
+
+    .pic1{
+        height:400px;
+        width:448px;
+        padding-bottom: 48px;
+    }
+
+    .pictures{
+        position: absolute;
+        top:192px;
+    }
+  
+
+    .pictures .pic3{
+    display:none
+    }
+    
+    
+    section{
+        position: absolute;
+        width: 480px;
+height: 658px;
+top: 1690px;
+
+    padding: 96px, 29px, 96px, 29px;
+    background: #0B0A0A;
+    
+    
+    }
+    section span{
+        font-family: Gentium Book Basic;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;  
+    color: #FFFFFF;
+    width: 109px;
+height: 42px;
+top: 2058px;
+left: 16px;
+
+
+
+    }
+    
+    section p{
+        position: absolute;
+        width: 448px;
+        height: 168px;
+        top: 63px;
+        left: -2px;
+        font-family: Gentium Book Basic;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: justified;
+        padding-bottom: 48px;
+        
+    color: #FFFFFF;
+    }
+    
+    section img{
+        position: absolute;
+        width: 448px;
+height: 280px;
+left:16px;
+top:48px;
+
+    
+    }
+
+    .about{
+        position: absolute;
+        width: 510px;
+        width: 452px;
+        height: 320px;
+        top: 359px;
+        left: 28px;
+        padding: 0px, 0px, 40px, 0px;
+    }
+    
+    footer{
+        position: absolute;
+        width: 480px;
+        height: 90px;
+        top: 2348px;
+        
+        
+        background: #2A2626;
+      
+
+    
+    }
+    
+    .footer{
+        display: flex;
+        align-content: center;
+        justify-content:space-between;
+        padding-left: 80px;
+        padding-top: 30px;
+        width: 480px;
+        height: 90px;
+       
+        
+    
+    }
+    
+    .icones{
+        position: absolute;
+        width: 162px;
+height: 30px;
+top: 30px;
+left: 159px;
+
+
+    }
+    
+    .footer-logo{
+        position: absolute;
+        display:none;
+
+    
+    }
+
+
+    .burger{
+        position: absolute;
+    border-radius: 50px;
+    width: 52px;
+height: 52px;
+top: 40px;
+left: 393px;
+border-radius: 50%;
+background: #FFFFFF;
+visibility: visible;
+padding: 10px, 5px, 10px, 5px;
+
+    }
+  }
+
+  
+
+  
